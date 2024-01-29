@@ -10,8 +10,8 @@
 <p>Create italic text *here*</p>
 
 <p>bullet points below <br>
-    - Bullet 1
-    - bullet 2
+>    - Bullet 1 <br>
+>    - bullet 2 <br>
 
-    ***Bold and Italic*** </p>
+>   ***Bold and Italic*** </p>
 
