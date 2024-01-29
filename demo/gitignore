@@ -2,3 +2,4 @@ $ UnTracked files
 
     .metadata/*
     .vscode/*
+    .vscode/settings.json
