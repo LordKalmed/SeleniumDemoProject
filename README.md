@@ -19,8 +19,8 @@ bullet points below <br>
 <h2>Test Coverage</h2>
 <p>The website ... has a number of pages built for automation testing practice <br>
 Below is a list of currently covered pages/functions on the site <br>
--Add Remove Element
--Basic Auth
--Checkboxes
--BBroken Images
+- Add Remove Element
+- Basic Auth
+- Checkboxes
+- BBroken Images
 </p>
