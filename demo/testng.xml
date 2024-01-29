@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <test name="FullSuiteFirefox" thread-count="5">
+    <parameters>
+  <parameter name="browser" value="Firefox"></parameter>
+  <parameter name="path" value=""></parameter>
+  <parameter name ="key" value=""></parameter>
+  </parameters>
+
+     <classes>
+       <class name="tests.testAddRemoveElement" />
+       <class name="tests.BasicAuthTest" />
+    </classes>
+  </test>
+
+</suite> <!-- Suite -->

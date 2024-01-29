@@ -1,0 +1,18 @@
+<suite name="Suite1" verbose="1" >
+
+<parameter name="urlhome" value = "">
+<parameter name="urlAddRemoveBtn" value ="">
+
+
+  <test name="FullSuiteFirefox" >
+  <parameter name="browser" value="Firefox">
+  <parameter name="path" value="">
+  <parameter name ="key" value="">
+
+     <classes>
+       <class name="tests.testAddRemoveElement" />
+       <class name="tests.BasicAuthTest" />
+    </classes>
+  </test>
+ 
+</suite>

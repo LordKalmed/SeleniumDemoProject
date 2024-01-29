@@ -1,0 +1,127 @@
+14:55:00.435 [main] INFO  - Screenshot taken
+14:55:00.437 [main] FATAL - Fatel message
+14:55:00.437 [main] WARN  - Warning logger message
+14:55:00.437 [main] ERROR - Error message
+15:00:19.061 [main] INFO  - Screenshot taken
+15:00:19.063 [main] FATAL - Fatel message
+15:00:19.063 [main] WARN  - Warning logger message
+15:00:19.063 [main] ERROR - Error message
+19:22:42.091 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9eb8f346-b4ec-439d-8c52-ac46f6955aa5, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:25334, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9564, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:25334/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9eb8f346-b4ec-439d-8c52-ac46f6955aa5
+19:24:30.466 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a62d7c8b-2db5-40e0-b102-d0022dc06288, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:35495, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3756, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35495/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a62d7c8b-2db5-40e0-b102-d0022dc06288
+19:26:06.160 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [29e10706-40e8-4e81-bb02-09a2d1eaffb4, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:5034, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1496, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5034/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 29e10706-40e8-4e81-bb02-09a2d1eaffb4
+19:40:26.557 [main] INFO  - Screenshot taken
+19:40:26.559 [main] FATAL - Fatel message
+19:40:26.559 [main] WARN  - Warning logger message
+19:40:26.559 [main] ERROR - Error message
+19:40:50.270 [main] INFO  - Screenshot taken
+19:40:50.273 [main] FATAL - Fatel message
+19:40:50.273 [main] WARN  - Warning logger message
+19:40:50.273 [main] ERROR - Error message
+19:41:35.120 [main] INFO  - Screenshot taken
+19:41:35.122 [main] FATAL - Fatel message
+19:41:35.122 [main] WARN  - Warning logger message
+19:41:35.122 [main] ERROR - Error message
+19:42:29.206 [main] INFO  - Screenshot taken
+19:42:29.208 [main] FATAL - Fatel message
+19:42:29.208 [main] WARN  - Warning logger message
+19:42:29.208 [main] ERROR - Error message
+19:43:01.246 [main] INFO  - Screenshot taken
+19:43:01.249 [main] FATAL - Fatel message
+19:43:01.249 [main] WARN  - Warning logger message
+19:43:01.249 [main] ERROR - Error message
+19:49:35.699 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [95ae7916-b469-4e5b-8512-b629c1b2ae45, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:28904, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2372, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:28904/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 95ae7916-b469-4e5b-8512-b629c1b2ae45
+19:50:44.573 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f0aa5422-8ecb-4e19-a513-dce9586b4a03, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:21451, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2536, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21451/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0aa5422-8ecb-4e19-a513-dce9586b4a03
+19:51:51.836 [main] INFO  - Screenshot taken
+19:51:51.839 [main] FATAL - Fatel message
+19:51:51.839 [main] WARN  - Warning logger message
+19:51:51.839 [main] ERROR - Error message
+20:50:32.772 [main] INFO  - In URL Test
+20:52:48.613 [main] INFO  - In URL Test
+16:58:24.884 [main] ERROR - org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div/div/button
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fd94c848-4017-41d1-9773-e442e879a31e, findElement {using=xpath, value=/html/body/div[2]/div/div/div/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:5739, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10336, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5739/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd94c848-4017-41d1-9773-e442e879a31e
+21:47:37.285 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: This site is asking you to sign in.: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [53523a47-d6a1-491f-8a6d-3765c766cafb, findElement {using=xpath, value=/html/body/div[2]/div/div/p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:27734, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19096, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27734/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53523a47-d6a1-491f-8a6d-3765c766cafb
+21:47:43.101 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: This site is asking you to sign in.: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60f24090-e982-42ba-889f-c823662fbfd9, findElement {using=xpath, value=/html/body/div[2]/div/div/p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:47507, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14748, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47507/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60f24090-e982-42ba-889f-c823662fbfd9
+21:48:44.546 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: This site is asking you to sign in.: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [301463fc-9742-4927-a52a-e9a6ab038d34, findElement {using=xpath, value=/html/body/div[2]/div/div/p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:13074, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13416, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:13074/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 301463fc-9742-4927-a52a-e9a6ab038d34
+15:52:45.659 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: This site is asking you to sign in.: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [236c0da4-8828-407e-a5c5-b253b3e8a346, findElement {using=xpath, value=/html/body/div[2]/div/div/p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:7314, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18416, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:7314/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 236c0da4-8828-407e-a5c5-b253b3e8a346
+15:52:46.100 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: This site is asking you to sign in.: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [236c0da4-8828-407e-a5c5-b253b3e8a346, findElement {using=xpath, value=/html/body/div[2]/div/div/p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:7314, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18416, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:7314/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 236c0da4-8828-407e-a5c5-b253b3e8a346
+11:43:00.546 [main] INFO  - Expected URL is present
+16:09:20.138 [main] INFO  - Expected URL is present
+16:09:20.189 [main] ERROR - java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.openqa.selenium.WebElement.getAttribute(String)" is null
+16:12:39.482 [main] INFO  - Expected URL is present
+16:13:00.259 [main] INFO  - Expected URL is present
+16:13:00.304 [main] ERROR - java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.openqa.selenium.WebElement.getAttribute(String)" is null
+16:13:38.157 [main] INFO  - Expected URL is present
+16:13:38.202 [main] ERROR - java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.openqa.selenium.WebElement.getAttribute(String)" is null
+16:14:41.704 [main] INFO  - Expected URL is present
+16:14:41.754 [main] ERROR - java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.openqa.selenium.WebElement.getAttribute(String)" is null
