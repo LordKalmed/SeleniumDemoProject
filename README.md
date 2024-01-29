@@ -1,5 +1,4 @@
 <H1>Read Me</H1>
-# heading with MD format
 
 <H2>Initial Dev Plan</H2>
 <P>Paragragh description here</P>
@@ -16,3 +15,12 @@ bullet points below <br>
 
 >   ***Bold and Italic*** </p>
 
+
+<h2>Test Coverage</h2>
+<p>The website ... has a number of pages built for automation testing practice <br>
+Below is a list of currently covered pages/functions on the site <br>
+-Add Remove Element
+-Basic Auth
+-Checkboxes
+-BBroken Images
+</p>
