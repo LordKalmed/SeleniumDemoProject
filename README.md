@@ -1,4 +1,5 @@
 <H1>Read Me</H1>
+# heading with MD format
 
 <H2>Initial Dev Plan</H2>
 <P>Paragragh description here</P>
@@ -9,7 +10,7 @@
 <p>Create bold text **here**</p>
 <p>Create italic text *here*</p>
 
-<p>bullet points below <br>
+bullet points below <br>
 >    - Bullet 1 <br>
 >    - bullet 2 <br>
 
