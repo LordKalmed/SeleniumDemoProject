@@ -15,7 +15,6 @@ public class factoryRunner {
     }
 
     public void destroyDriver(WebDriver sentDriver){
-        sentDriver.close();
         sentDriver.quit();
     }
     

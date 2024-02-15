@@ -113,7 +113,8 @@ public class testAddRemoveElement {
 
     @AfterClass
     public void teardown(){
-        runner.destroyDriver(driver);
+    	driver.quit();
+        //runner.destroyDriver(driver);
     }
 
     @DataProvider

@@ -91,7 +91,8 @@ public class BasicAuthTest extends TestTemplate{
 
   @AfterClass
   public void afterClass() {
-    runner.destroyDriver(driver);
+    driver.quit();
+    //runner.destroyDriver(driver);
   }
 
 }

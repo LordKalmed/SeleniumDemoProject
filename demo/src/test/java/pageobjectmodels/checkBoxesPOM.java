@@ -3,9 +3,9 @@ package pageobjectmodels;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class checkBoxes extends basicPOMtemplate{
+public class checkBoxesPOM extends basicPOMtemplate{
 
-    public checkBoxes(WebDriver driver) {
+    public checkBoxesPOM(WebDriver driver) {
         super(driver);
     }
     

@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import pageobjectmodels.BasicAuthPOM;
 import pageobjectmodels.addremovePOM;
 import pageobjectmodels.brokenImagePOM;
-import pageobjectmodels.checkBoxes;
+import pageobjectmodels.checkBoxesPOM;
 import pageobjectmodels.homePagePOM;
 import runners.factoryRunner;
 import utility.ScreenShot;
@@ -28,7 +28,7 @@ public class TestTemplate {
     addremovePOM addpom;
     BasicAuthPOM basicAuthpom;
     brokenImagePOM brokenImagePOM;
-    checkBoxes checkbox;
+    checkBoxesPOM checkbox;
 
 
     // Useful functions for tests here
