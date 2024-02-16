@@ -2,13 +2,18 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.asserts.SoftAssert;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pageobjectmodels.BasicAuthPOM;
 import pageobjectmodels.addremovePOM;
 import pageobjectmodels.brokenImagePOM;
 import pageobjectmodels.checkBoxesPOM;
+import pageobjectmodels.contextMenuPOM;
 import pageobjectmodels.homePagePOM;
 import runners.factoryRunner;
 import utility.ScreenShot;
@@ -29,6 +34,7 @@ public class TestTemplate {
     BasicAuthPOM basicAuthpom;
     brokenImagePOM brokenImagePOM;
     checkBoxesPOM checkbox;
+    contextMenuPOM contextPOM;
 
 
     // Useful functions for tests here
@@ -39,4 +45,34 @@ public class TestTemplate {
     public WebDriver getDriver(){
         return this.driver;
     }
+
+
+        //cheching whether the before classes can run from test template
+    @BeforeClass
+    public void beforeClass() {
+        factoryRunner runner = new factoryRunner();
+        setDriver(runner.createDriver());
+        homepom = new homePagePOM(driver);
+        brokenImagePOM = new brokenImagePOM(driver);
+        contextPOM = new contextMenuPOM(driver);
+        driver.get("https://the-internet.herokuapp.com/");
+        driver.manage().window().maximize();
+        // Setup folder for screenshot below
+        scrn = new ScreenShot("brokenImageTest", driver);
+        softAssert = new SoftAssert();
+        log = LogManager.getLogger();
+        report = new Reporter();
+    }
+
+    @AfterClass
+    public void afterClass() {
+        driver.quit();
+        //runner.destroyDriver(driver);
+    }
+
+    public void SetupTestEnviroment(){
+
+    }
+
+    
 }

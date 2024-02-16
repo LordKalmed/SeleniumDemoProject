@@ -16,8 +16,8 @@ public class homePagePOM {
     public By basicAuthLink = By.xpath("/html/body/div[2]/div/ul/li[3]/a");
     public By brokenImageLink = By.xpath("/html/body/div[2]/div/ul/li[4]/a");
     public By challengingDOM = By.xpath("null");
-    public By checkBoxesLink = By.xpath("null");
-    public By contextMenuLink = By.xpath("null");
+    public By checkBoxesLink = By.xpath("/html/body/div[2]/div/ul/li[6]/a");
+    public By contextMenuLink = By.xpath("/html/body/div[2]/div/ul/li[7]/a");
     public By digestAuthenticationLink = By.xpath("null");
     public By disappearingElementsLink = By.xpath("null");
 
