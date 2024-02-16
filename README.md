@@ -1,7 +1,15 @@
 <H1>Read Me</H1>
 
+<H2> Overview </H2>
+<P> This project is intended to demonstate my automation testing skills by using a webservice designed for testing and run as a docker image. This will then be tested by a Jenkins server before creating a test report. </P>
+
 <H2>Initial Dev Plan</H2>
-<P>Paragragh description here</P>
+<P>In order to demonstatre automation skills a test suite desined with extensive multi enviroment capabilities will be created. Below will be the stages of development as well as  expand will be created<br>
+- 1st Development cycle:  <br>
+- 2nd Development cycle:  <br>
+- 3rd Development cycle:  <br>
+
+</P>
 
 <H2>Layout of project here</H2>
 <p>Paragragh of layout here</p>
