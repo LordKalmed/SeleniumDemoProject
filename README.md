@@ -13,7 +13,7 @@
 
 <H2>Layout of project here</H2>
 <p>Development cycle 1 <br></p>
-    ![alt text](demo\target\images\Dev1Layout.png)
+<p>    ![alt text](demo\target\images\Dev1Layout.png) </p>
 
 <p>Create bold text **here**</p>
 <p>Create italic text *here*</p>
