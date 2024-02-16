@@ -12,9 +12,8 @@
 </P>
 
 <H2>Layout of project here</H2>
-<p>Development cycle 1 <br>
-    ![alt text](C:\Users\Angus\Documents\SeleniumDemoProject\demo\target\images\Dev1Layout.png "ERD1")
-</p>
+<p>Development cycle 1 <br></p>
+    ![alt text](demo\target\images\Dev1Layout.png)
 
 <p>Create bold text **here**</p>
 <p>Create italic text *here*</p>
