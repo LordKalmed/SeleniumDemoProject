@@ -5,14 +5,16 @@
 
 <H2>Initial Dev Plan</H2>
 <P>In order to demonstatre automation skills a test suite desined with extensive multi enviroment capabilities will be created. Below will be the stages of development as well as  expand will be created<br>
-- 1st Development cycle:  <br>
-- 2nd Development cycle:  <br>
-- 3rd Development cycle:  <br>
+- 1st Development cycle:  Creation of basic test cases to cover each page and function in the internet application. These will run on Firefox browser.<br>
+- 2nd Development cycle:  After all test cases have been created the project will be expanded to use a Jenkins server to test the application with multiple browsers (suites)<br>
+- 3rd Development cycle:  Final development cycle will deploy the internet app as a docker image, then create multiple virtual machines to run the tests in multiple enviroments with a number of browsers. PLatforms wwill include Windows, IOS and Linux covering browsers such as Chrome, Edge, Firefox, Safari and DuckDuckGo<br>
 
 </P>
 
 <H2>Layout of project here</H2>
-<p>Paragragh of layout here</p>
+<p>Development cycle 1 <br>
+    ![alt text](C:\Users\Angus\Documents\SeleniumDemoProject\demo\target\images\Dev1Layout.png "ERD1")
+</p>
 
 <p>Create bold text **here**</p>
 <p>Create italic text *here*</p>
