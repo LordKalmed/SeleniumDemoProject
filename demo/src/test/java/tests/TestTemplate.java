@@ -1,10 +1,11 @@
 package tests;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,6 +15,7 @@ import pageobjectmodels.addremovePOM;
 import pageobjectmodels.brokenImagePOM;
 import pageobjectmodels.checkBoxesPOM;
 import pageobjectmodels.contextMenuPOM;
+import pageobjectmodels.digestAuthPOM;
 import pageobjectmodels.homePagePOM;
 import runners.factoryRunner;
 import utility.ScreenShot;
@@ -27,6 +29,7 @@ public class TestTemplate {
     SoftAssert softAssert;
     Logger log;
     Reporter report;
+    Actions act;
 
     //Page Object models setup here. Require driver sent to constructor.
     homePagePOM homepom;
@@ -35,6 +38,9 @@ public class TestTemplate {
     brokenImagePOM brokenImagePOM;
     checkBoxesPOM checkbox;
     contextMenuPOM contextPOM;
+    digestAuthPOM digestPOM;
+
+
 
 
     // Useful functions for tests here
@@ -74,5 +80,10 @@ public class TestTemplate {
 
     }
 
-    
+    @Test
+    public void blankTest(){
+        
+    }
+
+
 }

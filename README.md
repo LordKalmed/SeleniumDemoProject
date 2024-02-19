@@ -3,6 +3,18 @@
 <H2> Overview </H2>
 <P> This project is intended to demonstate my automation testing skills by using a webservice designed for testing and run as a docker image. This will then be tested by a Jenkins server before creating a test report. </P>
 
+
+<h2>Requirments</h2>
+<p> Below are the requirments of this Selenium Demo Project <br>
+- Development Cycle 1 : 
+
+- Development Cycle 2 : 
+
+- Development cycle 3:
+
+</p>
+
+
 <H2>Initial Dev Plan</H2>
 <P>In order to demonstatre automation skills a test suite desined with extensive multi enviroment capabilities will be created. Below will be the stages of development as well as  expand will be created<br>
 - 1st Development cycle:  Creation of basic test cases to cover each page and function in the internet application. These will run on Firefox browser.<br>

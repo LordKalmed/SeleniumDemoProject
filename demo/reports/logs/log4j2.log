@@ -257,3 +257,40 @@ Command: [7ee6161b-ef7c-427f-a16e-96ad78d8605d, findElement {using=xpath, value=
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:30069, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22704, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30069/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 7ee6161b-ef7c-427f-a16e-96ad78d8605d
 14:40:49.370 [main] ERROR - java.io.FileNotFoundException: C:\Users\Angus\Documents\SeleniumDemoProject\demo\reports\testReports\contextMenuTest\contextMenuTestURL-https:\the-internet.herokuapp.com\context_menu-Pass.png (The filename, directory name, or volume label syntax is incorrect)
+21:56:10.560 [main] ERROR - java.io.FileNotFoundException: C:\Users\Angus\Documents\SeleniumDemoProject\demo\reports\testReports\contextMenuTest\contextMenuTestURL-https:\the-internet.herokuapp.com\context_menu-Pass.png (The filename, directory name, or volume label syntax is incorrect)
+22:00:27.781 [main] ERROR - java.io.FileNotFoundException: C:\Users\Angus\Documents\SeleniumDemoProject\demo\reports\testReports\contextMenuTest\contextMenuTestURL-https:\the-internet.herokuapp.com\context_menu-Pass.png (The filename, directory name, or volume label syntax is incorrect)
+22:00:28.030 [main] ERROR - org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: You selected a context menu: 
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7abd6231-d27a-4434-9291-36ec78c3757d, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:10498, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2960, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10498/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7abd6231-d27a-4434-9291-36ec78c3757d
+18:12:34.462 [main] ERROR - org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: pass is not a valid URL.
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23c7f01f-f53e-44ab-8845-d610acf9a9a6, get {url=pass}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:45639, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7500, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:45639/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23c7f01f-f53e-44ab-8845-d610acf9a9a6
+18:12:34.470 [main] ERROR - org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: pass is not a valid URL.
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23c7f01f-f53e-44ab-8845-d610acf9a9a6, get {url=pass}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:45639, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7500, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:45639/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23c7f01f-f53e-44ab-8845-d610acf9a9a6
+18:17:32.404 [main] ERROR - org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//admin%3Aadmin%40https//the-internet.herokuapp.com/digest_auth&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20https.
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [473f07a7-9bb4-47c1-8da3-892995df4d0e, get {url=https://admin:admin@https://the-internet.herokuapp.com/digest_auth}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:31049, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4172, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31049/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 473f07a7-9bb4-47c1-8da3-892995df4d0e
+18:17:37.057 [main] ERROR - org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//user%3AuserPass%40https//the-internet.herokuapp.com/digest_auth&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20https.
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [473f07a7-9bb4-47c1-8da3-892995df4d0e, get {url=https://user:userPass@https://the-internet.herokuapp.com/digest_auth}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0.1, moz:accessibilityChecks: false, moz:buildID: 20240205133611, moz:debuggerAddress: 127.0.0.1:31049, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4172, moz:profile: C:\Users\Angus\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31049/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 473f07a7-9bb4-47c1-8da3-892995df4d0e

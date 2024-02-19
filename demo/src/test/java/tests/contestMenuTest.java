@@ -1,6 +1,8 @@
 package tests;
 
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -12,12 +14,13 @@ import pageobjectmodels.brokenImagePOM;
 import pageobjectmodels.contextMenuPOM;
 import pageobjectmodels.homePagePOM;
 import runners.factoryRunner;
+import utility.Retry;
 import utility.ScreenShot;
 
 public class contestMenuTest extends TestTemplate{
 
 
-    @Test
+    @Test(enabled = true, retryAnalyzer = Retry.class)
     public void contextMenuTestURL(){
         try {
             String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
@@ -27,9 +30,35 @@ public class contestMenuTest extends TestTemplate{
             if (pass){
                 scrn.screenShot(methodName, pass, expectedURL);
             }
+            else scrn.screenShot(methodName, pass, "failed");
             Assert.assertEquals(pass, true);
         } catch (Exception e) {
             log.error(e);
+        }
+    }
+
+    @Test(enabled = true, dependsOnMethods = {"contextMenuTestURL"}, retryAnalyzer = Retry.class)
+    public void contextMenuContextBbuttonTest(){
+        try {
+            String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
+            boolean pass = false;
+            if (driver.findElement(contextPOM.contextMenu).isEnabled()){
+                // Assert here
+                act.contextClick(driver.findElement(contextPOM.contextMenu)).perform();
+                try {
+                    driver.switchTo().alert();
+                    pass = true;
+                    scrn.screenShot(methodName, pass, methodName);
+                } catch (NoAlertPresentException e) {
+                    scrn.screenShot(methodName, false, methodName);
+                    log.error(e);
+                }
+            }
+            Assert.assertTrue(pass);
+            //final assert here
+        } catch (Exception e) {
+            log.error(e);
+            
         }
     }
 
@@ -47,6 +76,9 @@ public class contestMenuTest extends TestTemplate{
         softAssert = new SoftAssert();
         log = LogManager.getLogger();
         report = new Reporter();
+
+        //unique for actions below
+        act = new Actions(driver);
     }
 
     @AfterClass
